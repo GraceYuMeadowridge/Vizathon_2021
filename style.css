@@ -99,6 +99,38 @@ html {
     width: 500px;
 }
 
+.threeMproduction,
+.mask_use_overtime,
+.us_china,
+.N95 {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 6px lightgray;
+    border-style: outset;
+    display: inline-block;
+}
+
+.threeMproduction {
+    width: 43%;
+}
+
+.mask_use_overtime {
+    width: 52%;
+    float: right;
+    display: inline-block;
+}
+
+.us_china,
+.N95 {
+    align-items: center;
+    position: relative;
+    left: 18%;
+    top: 18%;
+    width: 64%;
+}
+
 .caption {
     font-size: 18px;
 }
