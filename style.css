@@ -118,7 +118,6 @@ html {
 
 .mask_use_overtime {
     width: 52%;
-    float: right;
     display: inline-block;
 }
 
@@ -139,6 +138,12 @@ html {
     color: white;
 }
 
+.title-vizathon-reverse {
+    text-align: center;
+    background-color: white;
+    color: #333;
+}
+
 .red {
     color: red;
 }
@@ -153,4 +158,45 @@ html {
 
 .orange {
     color: orange;
+}
+
+.legend {
+    width: 25%;
+    height: 16%;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    border: 6px white;
+    border-style: outset;
+}
+
+.stack-top {
+    z-index: 8;
+    margin: 20px;
+}
+
+.stack-top-2 {
+    z-index: 8;
+    margin: 10px;
+    display: inline-block;
+}
+
+#mandate {
+    background-color: #003f5c;
+    color: #003f5c;
+    width: 10%;
+    display: inline-block;
+    border: 3px solid white;
+}
+
+#no-mandate {
+    background-color: #ff6361;
+    color: #ff6361;
+    width: 10%;
+    display: inline-block;
+    border: 3px solid white;
+}
+
+.white {
+    color: white;
 }
