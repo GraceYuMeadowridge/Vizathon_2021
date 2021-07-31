@@ -47,7 +47,7 @@ var circle_canada = L.circle([45, -80], 200000, {
 
 var circle_columbia = L.circle([5, -75], 200000, {
     color: 'red',
-    fillColor: '#f03',
+    fillColor: 'red',
     fillOpacity: 0.5,
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/colombia_exports.png class=colombia>", {
     minWidth: "auto",
@@ -77,10 +77,58 @@ var circle_singapore = L.circle([2, 104], 100000, {
     minWidth: "auto",
 });
 
-var circle_singapore = L.circle([2, 115], 400000, {
+var circle_indonesia = L.circle([2, 115], 400000, {
     color: 'blue',
     fillColor: 'blue',
     fillOpacity: 0.5,
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/Indonesia_facemask.png class=Indonesia>", {
+    minWidth: "auto",
+});
+
+var circle_malaysia = L.circle([5, 102], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Malaysia_facemask.png class=malaysia>", {
+    minWidth: "auto",
+});
+
+var circle_peru = L.circle([-10, -75], 300000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Peru_exp.png class=peru>", {
+    minWidth: "auto",
+});
+
+var circle_mexico = L.circle([20, -98], 500000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/mexico_behaviors.png class=mexico>", {
+    minWidth: "auto",
+});
+
+var circle_france_import = L.circle([46.5, 0], 300000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/france.png class=france>", {
+    minWidth: "auto",
+});
+
+var circle_france_pie = L.circle([46.5, 3], 300000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/france_pie.png class=france>", {
+    minWidth: "auto",
+});
+
+var circle_africa = L.circle([0, 20], 2000000, {
+    color: 'gray',
+    fillColor: 'gray',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<p class=africa>Unfortunately, we are unable to find online dataset regarding the continent of Africa.</p>", {
     minWidth: "auto",
 });
