@@ -37,6 +37,15 @@ var circle_russia_2 = L.circle([60, 80], 500000, {
     maxWidth: 800
 });
 
+var circle_russia_3 = L.circle([60, 105], 500000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Russia_growth.png class=russia> ", {
+    minWidth: "auto",
+    maxWidth: 800
+});
+
 var circle_canada = L.circle([45, -80], 200000, {
     color: 'green',
     fillColor: 'green',
@@ -130,5 +139,21 @@ var circle_africa = L.circle([0, 20], 2000000, {
     fillColor: 'gray',
     fillOpacity: 0.5,
 }).addTo(mymap).bindPopup("<p class=africa>Unfortunately, we are unable to find online dataset regarding the continent of Africa.</p>", {
+    minWidth: 400,
+});
+
+var circle_uk = L.circle([53, -2], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/UK_Frequency.png class=uk>", {
+    minWidth: "auto",
+});
+
+var circle_ecuador = L.circle([-1, -79], 100000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/ecuador_imports.png class=ecuador>", {
     minWidth: "auto",
 });
