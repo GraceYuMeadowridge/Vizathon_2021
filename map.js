@@ -52,3 +52,35 @@ var circle_columbia = L.circle([5, -75], 200000, {
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/colombia_exports.png class=colombia>", {
     minWidth: "auto",
 });
+
+var circle_chile_sales = L.circle([-32, -72], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/chile_sales.png class=chile>", {
+    minWidth: "auto",
+});
+
+var circle_chile_behaviors = L.circle([-36, -73], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/chile_behaviors.png class=chile>", {
+    minWidth: "auto",
+});
+
+var circle_singapore = L.circle([2, 104], 100000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Singapore_facemask.png class=singapore>", {
+    minWidth: "auto",
+});
+
+var circle_singapore = L.circle([2, 115], 400000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Indonesia_facemask.png class=Indonesia>", {
+    minWidth: "auto",
+});
