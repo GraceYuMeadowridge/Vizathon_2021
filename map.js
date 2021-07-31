@@ -157,3 +157,91 @@ var circle_ecuador = L.circle([-1, -79], 100000, {
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/ecuador_imports.png class=ecuador>", {
     minWidth: "auto",
 });
+
+var circle_aruba = L.circle([12.5, -70], 50000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/china_aruba.png class=aruba>", {
+    minWidth: "auto",
+});
+
+var circle_china = L.circle([35, 110], 1000000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/china.png class=china>", {
+    minWidth: "auto",
+});
+
+var circle_finland = L.circle([65, 27], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/finland.png class=finland>", {
+    minWidth: "auto",
+});
+
+var circle_sweden = L.circle([60, 17], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/sweden.png class=sweden>", {
+    minWidth: "auto",
+});
+
+var circle_norway = L.circle([62, 10], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/norway.png class=norway>", {
+    minWidth: "auto",
+});
+
+var circle_denmark = L.circle([56, 10], 100000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/denmark.png class=denmark>", {
+    minWidth: "auto",
+});
+
+var circle_germany = L.circle([50, 10], 300000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/germany.png class=germany>", {
+    minWidth: "auto",
+});
+
+var circle_netherlands = L.circle([53, 5], 100000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/netherlands.png class=netherlands>", {
+    minWidth: "auto",
+});
+
+var circle_spain = L.circle([40, -2], 300000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/spain.png class=spain>", {
+    minWidth: "auto",
+});
+
+var circle_italy_masks = L.circle([44, 12], 200000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/italy.png class=italy>", {
+    minWidth: "auto",
+});
+
+var circle_italy_exports = L.circle([40, 16], 200000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/italy_exports.png class=italy>", {
+    minWidth: "auto",
+});

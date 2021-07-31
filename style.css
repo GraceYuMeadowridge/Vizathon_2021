@@ -84,6 +84,17 @@ html {
     height: 500px;
 }
 
+.finland,
+.sweden,
+.norway,
+.denmark,
+.germany,
+.netherlands,
+.spain,
+.italy {
+    height: 400px;
+}
+
 .threeM {
     width: 500px;
 }
