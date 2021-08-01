@@ -107,7 +107,10 @@ html {
 .threeMproduction,
 .mask_use_overtime,
 .us_china,
-.N95 {
+.N95,
+.us_colombia,
+.us_brazil,
+.us_denmark {
     background-color: white;
     margin: 10px;
     padding: 5px;
@@ -127,7 +130,10 @@ html {
 }
 
 .us_china,
-.N95 {
+.N95,
+.us_colombia,
+.us_brazil,
+.us_denmark {
     align-items: center;
     position: relative;
     left: 18%;

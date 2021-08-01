@@ -52,3 +52,15 @@ https://www.statista.com/statistics/1236793/price-of-surgical-and-ffp2-masks-in-
 https://tradingeconomics.com/ukraine/exports/spain/breathing-appliances-gas-masks-parts
 https://tradingeconomics.com/united-states/imports/spain/breathing-appliances-gas-masks-parts
 https://zenodo.org/record/3747888#.YQXGwuhKjb0
+https://www.statista.com/statistics/1117829/covid-19-medical-masks-and-antiseptics-sales-russia/
+https://www.ceicdata.com/en/russia/average-consumer-price-medical-goods/avg-consumer-price-medical-goods-sanitary-and-hygienic-mask-medical
+https://www.statista.com/statistics/1114248/wearing-a-face-mask-outside-in-the-uk/
+https://www.statista.com/statistics/1114375/wearing-a-face-mask-outside-in-european-countries/
+https://tradingeconomics.com/ukraine/imports/india/breathing-appliances-gas-masks-parts
+https://tradingeconomics.com/south-africa/imports/india/breathing-appliances-gas-masks-parts
+https://tradingeconomics.com/united-states/imports/india/breathing-appliances-gas-masks-parts
+https://tradingeconomics.com/india/exports-to-nigeria
+https://tradingeconomics.com/united-states/exports/brazil/breathing-appliances-gas-masks-parts
+https://www.statista.com/statistics/1105557/hygiene-goods-consumption-growth-coronavirus-brazil/
+https://tradingeconomics.com/united-states/exports/colombia/breathing-appliances-gas-masks-parts
+https://tradingeconomics.com/united-states/exports/denmark/breathing-appliances-gas-masks-parts 

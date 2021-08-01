@@ -16,8 +16,8 @@ var circle_threeM = L.circle([40, -100], 500000, {
     color: 'red',
     fillColor: 'red',
     fillOpacity: 0.5,
-}).addTo(mymap).bindPopup("<img src=plots_and_figures/ThreeMProduction.png class=threeM>", {
-    minWidth: "auto"
+}).addTo(mymap).bindPopup("<a href=US_masks.html class=threeM>Click to See Visualizations</a>", {
+    minWidth: 300
 });
 
 var circle_russia_1 = L.circle([60, 55], 500000, {
@@ -291,5 +291,13 @@ var circle_india_exports_4 = L.circle([20, 75], 500000, {
     fillColor: 'red',
     fillOpacity: 0.5,
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/India_exports_to_Ukraine.png class=india>", {
+    minWidth: "auto",
+});
+
+var circle_brazil_hygiene = L.circle([-12, -42], 1000000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Brazil_Hygiene.png class=brazil>", {
     minWidth: "auto",
 });

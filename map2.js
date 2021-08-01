@@ -224,7 +224,7 @@ var circle_threeM_plant_valley = L.circle([41.6, -96.5], 50000, {
     color: 'red',
     fillColor: 'red',
     fillOpacity: 0.5,
-}).addTo(mymap2).bindPopup("<p class=caption><b>3M Manufacture Plant</b>, valley, NE,  USA</p> ", {
+}).addTo(mymap2).bindPopup("<p class=caption><b>3M Manufacture Plant</b>, Valley, NE,  USA</p> ", {
     minWidth: "auto"
 });
 
@@ -316,6 +316,22 @@ var circle_threeM_plant_cumberland = L.circle([31.7, -99], 50000, {
     minWidth: "auto"
 });
 
+var circle_threeM_plant_wausau = L.circle([45, -89.5], 50000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>3M Manufacture Plant</b>, Wausau, WI, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_dupont_hq = L.circle([39.5, -75.5], 80000, {
+    color: 'yellow',
+    fillColor: 'yellow',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Dupont Headquarters</b>, Wilmington, DE, USA</p> ", {
+    minWidth: 400
+});
+
 var circle_honeywell_hq = L.circle([34, -118], 80000, {
     color: 'blue',
     fillColor: 'blue',
@@ -338,4 +354,244 @@ var circle_honeywell_phoenix = L.circle([33.3, -112], 50000, {
     fillOpacity: 0.5,
 }).addTo(mymap2).bindPopup("<p class=caption><b>Honeywell Factory</b>, Phoenix, AZ, USA</p> ", {
     minWidth: 400
+});
+
+var circle_kimberly_clark_hq = L.circle([33, -97], 80000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Headquarter</b>, Dallas, TX, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_conway = L.circle([35.2, -92.3], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Conway, AR, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_hendersonville = L.circle([35.4, -82.6], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Hendersonville, NC, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_loudon = L.circle([35.7, -84.5], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Loudon, TN, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_owensboro = L.circle([37.7, -87], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Owensboro, KY, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_neenah = L.circle([44.5, -88], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Neenah, WI, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_corinth = L.circle([34.8, -88.3], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Corinth, MS, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_jenks = L.circle([36, -96], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Jenks, OK, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_marinette = L.circle([45, -87.8], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Marinette, WI, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_paris = L.circle([33.6, -95.5], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Paris, TX, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_chester = L.circle([39.7, -75.2], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Chester, PA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_chester = L.circle([39.7, -75.2], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Chester, PA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_maumelle = L.circle([35.2, -92.9], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Maumelle, AR, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_newmilford = L.circle([41.6, -73.5], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Maumelle, AR, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_beechisland = L.circle([33.4, -81.8], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Beech Island, SC, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_fullerton = L.circle([33.8, -117.8], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Fullerton, CA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_lagrange = L.circle([32.8, -84.8], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, LaGrange, GA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_ogden = L.circle([41.2, -112], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, Ogden, UT, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_kimberly_clark_sanantonio = L.circle([29.3, -98.5], 50000, {
+    color: 'green',
+    fillColor: 'green',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Kimberly Clark Corporation Factory</b>, San Antonio, TX, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_bd_hq = L.circle([40.5, -74.5], 80000, {
+    color: 'pink',
+    fillColor: 'pink',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>BD Headquarters</b>, Franklin Lakes, NJ, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_pa_hq = L.circle([33, -97.5], 80000, {
+    color: 'purple',
+    fillColor: 'purple',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Prestige Ameritech Headquarters</b>, North Richard Hills, TX, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_apt_hq = L.circle([31.5, -111.1], 80000, {
+    color: 'gray',
+    fillColor: 'gray',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Alpha Pro Tech Headquarters</b>, Nogales, AZ, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_apt_hq = L.circle([40.6, -112], 50000, {
+    color: 'gray',
+    fillColor: 'gray',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Alpha Pro Tech Factory</b>, Salt Lake City, UT, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_lmg_hq = L.circle([42.2, -71.2], 80000, {
+    color: 'lime',
+    fillColor: 'lime',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Louis M. Gerson Company, Inc. Headquarter</b>, Middleboro, MA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_teleflex_hq = L.circle([40.5, -74.7], 80000, {
+    color: 'orange',
+    fillColor: 'orange',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Teleflex Headquarter</b>, Wayne, PA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_teleflex_jaffrey = L.circle([43, -71.8], 50000, {
+    color: 'orange',
+    fillColor: 'orange',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Teleflex Factory</b>, Jaffrey, NH, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_teleflex_mansfield = L.circle([42.1, -71.4], 50000, {
+    color: 'orange',
+    fillColor: 'orange',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Teleflex Factory</b>, Mansfield, MA, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_teleflex_maplegrove = L.circle([45.2, -93.4], 50000, {
+    color: 'orange',
+    fillColor: 'orange',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Teleflex Factory</b>, Maple Grove, MN, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_teleflex_Plymouth = L.circle([45.3, -93.5], 50000, {
+    color: 'orange',
+    fillColor: 'orange',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Teleflex Factory</b>, Plymouth, MN, USA</p> ", {
+    minWidth: "auto"
+});
+
+var circle_teleflex_trenton = L.circle([34.6, -85.3], 50000, {
+    color: 'orange',
+    fillColor: 'orange',
+    fillOpacity: 0.5,
+}).addTo(mymap2).bindPopup("<p class=caption><b>Teleflex Factory</b>, Trenton, GA, USA</p> ", {
+    minWidth: "auto"
 });
