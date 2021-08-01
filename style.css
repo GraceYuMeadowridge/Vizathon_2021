@@ -84,6 +84,10 @@ html {
     height: 500px;
 }
 
+.australia {
+    height: 400px;
+}
+
 .finland,
 .sweden,
 .norway,
@@ -160,7 +164,7 @@ html {
     color: orange;
 }
 
-.legend {
+#legend {
     width: 25%;
     height: 16%;
     position: absolute;

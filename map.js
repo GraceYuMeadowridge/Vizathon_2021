@@ -245,3 +245,19 @@ var circle_italy_exports = L.circle([40, 16], 200000, {
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/italy_exports.png class=italy>", {
     minWidth: "auto",
 });
+
+var circle_australia = L.circle([-20, 140], 800000, {
+    color: 'blue',
+    fillColor: 'blue',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Australia_facemask.png class=australia>", {
+    minWidth: "auto",
+});
+
+var circle_australia_imports = L.circle([-25, 130], 800000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/australia_import.png class=australia>", {
+    minWidth: "auto",
+});
