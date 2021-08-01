@@ -12,7 +12,7 @@ var circle_brazil = L.circle([-12, -50], 1000000, {
     minWidth: "auto"
 });
 
-var circle_threeM = L.circle([40, -100], 500000, {
+var circle_threeM = L.circle([40, -100], 1000000, {
     color: 'red',
     fillColor: 'red',
     fillOpacity: 0.5,
