@@ -165,6 +165,26 @@ html {
     color: orange;
 }
 
+.yellow {
+    color: yellow;
+}
+
+.pink {
+    color: pink;
+}
+
+.gray {
+    color: gray;
+}
+
+.purple {
+    color: purple;
+}
+
+.lime {
+    color: lime;
+}
+
 #legend {
     width: 25%;
     height: 16%;
