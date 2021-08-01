@@ -47,8 +47,8 @@ var circle_russia_3 = L.circle([60, 105], 500000, {
 });
 
 var circle_canada = L.circle([45, -80], 200000, {
-    color: 'green',
-    fillColor: 'green',
+    color: 'blue',
+    fillColor: 'blue',
     fillOpacity: 0.5,
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/canada_mask_demand.png class=canada>", {
     minWidth: "auto",
@@ -259,5 +259,37 @@ var circle_australia_imports = L.circle([-25, 130], 800000, {
     fillColor: 'red',
     fillOpacity: 0.5,
 }).addTo(mymap).bindPopup("<img src=plots_and_figures/australia_import.png class=australia>", {
+    minWidth: "auto",
+});
+
+var circle_india_exports_1 = L.circle([10, 80], 500000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/India_exports_to_SouthAfrica.png class=india>", {
+    minWidth: "auto",
+});
+
+var circle_india_exports_2 = L.circle([28, 77], 500000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/Indian_exports_to_Nigeria.png class=india>", {
+    minWidth: "auto",
+});
+
+var circle_india_exports_3 = L.circle([20, 82], 800000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/India_exports_to_USA.png class=india>", {
+    minWidth: "auto",
+});
+
+var circle_india_exports_4 = L.circle([20, 75], 500000, {
+    color: 'red',
+    fillColor: 'red',
+    fillOpacity: 0.5,
+}).addTo(mymap).bindPopup("<img src=plots_and_figures/India_exports_to_Ukraine.png class=india>", {
     minWidth: "auto",
 });
