@@ -117,14 +117,23 @@ html {
     text-align: center;
     border: 6px lightgray;
     border-style: outset;
+    text-align: center;
 }
 
 .threeMproduction {
     width: 43%;
+    align-items: center;
+    position: relative;
+    left: 28.5%;
+    top: 28.5%;
 }
 
 .mask_use_overtime {
     width: 52%;
+    align-items: center;
+    position: relative;
+    left: 24%;
+    top: 24%;
 }
 
 .us_china,
